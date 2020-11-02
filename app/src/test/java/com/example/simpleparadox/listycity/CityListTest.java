@@ -39,7 +39,7 @@ class CityListTest {
 
         Boolean isEmpty = (cityList.countCities() == 0);
 
-        assertFalse(isEmpty);
+        assertTrue(isEmpty);
     }
 }
 
